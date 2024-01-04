@@ -21,45 +21,32 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## About This Project
+🚀 Web & API Development using Laravel and Sanctum Package
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This repository showcases my work on a robust web application and API built with Laravel, implementing CRUD functionality for employee management. The primary objectives achieved in this project are outlined below:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. CRUD Operations for Employees:
 
-## Laravel Sponsors
+Implemented Create, Read, Update, and Delete operations for employee records.
+2. Display First 3 Joining Employees:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Developed functionality to display the details of the first three employees who joined the company.
+3. List of Employees on Leave:
 
-### Premium Partners
+Created a feature to showcase the list of employees who have taken a leave at any point in time.
+4. Remaining Leave Quota per Employee:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Utilized the Sanctum package to manage user authentication securely.
+Calculated and displayed the remaining leave quota for each employee, considering an annual quota of 12 days per year.
+The leave details include employee ID, name, and remaining leave days.
+Key Technologies Used:
 
-## Contributing
+Laravel Framework
+Sanctum Package for API Authentication
+Eloquent API Resource for efficient data representation
+Note:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# KlasifikasiStudentModelling
+The implementation adheres to best practices, and the use of Sanctum ensures a secure and reliable authentication mechanism.
+Eloquent API Resource is employed to streamline the API responses, enhancing data presentation.
+Feel free to explore the codebase and provide any feedback. Your input is valuable in refining and improving this project. Thank you for visiting!
