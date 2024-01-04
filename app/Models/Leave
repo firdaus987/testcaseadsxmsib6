@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Leave extends Model
+{
+    use HasFactory;
+    protected $table = 'Leave';
+    protected $fillable = [
+        'no_induk',
+        'id',
+        'tgl_cuti',
+        'lama',
+        'ket'];
+    
+        public function user()
+        {
+            return $this->belongsTo(User::class, 'id');
+        }
+}
