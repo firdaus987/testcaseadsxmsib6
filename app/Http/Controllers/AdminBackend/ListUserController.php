@@ -19,13 +19,7 @@ class ListUserController extends Controller
         $users = User::all()->where('kelas_user', '3');
         return view('admin_backend.admin_listuser', compact('users'));
     }
-    // /**
-    //  * Get a validator for an incoming registration request.
-    //  *
-    //  * @param  array  $data
-    //  * @return \Illuminate\Contracts\Validation\Validator
-    //  */
-
+  
     public function store(Request $request)
     {
         $user = new User();
@@ -33,8 +27,6 @@ class ListUserController extends Controller
         $user->alamat = $request->input('alamat');
         $user->tgl_lahir = $request->input('tgl_lahir');
         $user->tgl_bergabung = $request->input('tgl_bergabung');
-        $user->semester = $request->input('semester');
-        $user->angkatan = $request->input('angkatan');
         $user->email = $request->input('email');
         $user->password = Hash::make($request->input('email'));
         $user->kelas_user = '3';
